@@ -1,0 +1,49 @@
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+body{
+    background-image: url("poze\\poza.jpg");
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+.prg{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 250px;
+    margin-left: 250px;
+    background-image: url("poze\\poza2.jpg");
+    padding-top: 60px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 100px;
+    color: goldenrod;
+    text-indent: 50px;
+    text-shadow: 1.5px 1px  blue;
+}
+table,th,td{
+    border: 1px solid goldenrod;
+    border-collapse: collapse;
+    margin-left: 50px;
+}
